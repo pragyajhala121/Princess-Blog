@@ -1,0 +1,238 @@
+<!--created by prashant shukla-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Princess Blog</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+     
+        <link rel="stylesheet" href="style.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
+
+    </head>
+    <body background="https://www.gannett-cdn.com/presto/2020/03/19/USAT/fb1f3ba4-c628-4004-a013-7574327bc792-XXX_IMG_RALPH_PRINCESS_SELFI_1_1_QCNDPPC6.JPG?width=2560">
+      <center>
+               <h1>Princess Blog</h1>
+               <div>
+               <img data-toggle="modal" data-target="#myModal" src="https://i.ytimg.com/vi/lYqPAl5AZOE/movieposter.jpg">
+               <img data-toggle="modal" data-target="#myModal2" src="https://www.reellifewithjane.com/wp-content/uploads/2012/06/brave-vertical-banner-250.jpg">
+               <img data-toggle="modal" data-target="#myModal3" src="https://observer.case.edu/wp-content/uploads/2018/11/Petti_WreckitReleasePoster_WreckitRalph-720x900.jpg">
+               <img data-toggle="modal" data-target="#myModal4" src="https://www.collegefashion.net/wp-content/uploads/2019/01/the-little-mermaid-377x600.jpg">
+               <img data-toggle="modal" data-target="#myModal5" src="https://images.moviesanywhere.com/d32aca4f5b4ff1aefd7bab7e2601b763/90eb354a-0e46-45fe-9824-0b3af63072ac.jpg">
+               <img data-toggle="modal" data-target="#myModal6" src="https://images-na.ssl-images-amazon.com/images/I/91MpJvDr1WL.jpg">
+               <img data-toggle="modal" data-target="#myModal7" src="https://upload.wikimedia.org/wikipedia/en/c/c0/Barbie_Princess_Charm_School.jpg">
+               <img data-toggle="modal" data-target="#myModal8" src="https://cloud.vistaapps.elcapitantheatre.com/CDN/media/entity/get/FilmPosterGraphic/h-HO00000122">
+               <img data-toggle="modal" data-target="#myModal9" src="https://i.pinimg.com/originals/b5/46/7f/b5467f2221d78d204b5a44c8d57d516f.jpg">
+               <img data-toggle="modal" data-target="#myModal10" src="http://usmfreepress.org/wp-content/uploads/2018/02/Screen-Shot-2019-03-22-at-12.20.53-PM.png">
+
+              </div>
+              <br><br><br>
+              <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                  <li data-target="#myCarousel" data-slide-to="1"></li>
+                  <li data-target="#myCarousel" data-slide-to="2"></li>
+                  <li data-target="#myCarousel" data-slide-to="3"></li>
+                  <li data-target="#myCarousel" data-slide-to="4"></li>
+                  <li data-target="#myCarousel" data-slide-to="5"></li>
+                </ol>
+            
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <img src="https://64.media.tumblr.com/8889977ea2b4cf216ef9e5cd121a8d68/9e1fd85ba7063826-53/s400x600/a881fd39321248f0fae4d6159c4c2c9b0d8d0403.gif" alt="Clara" >
+                  </div>
+            
+                  <div class="item">
+                    <img src="https://i.pinimg.com/originals/bd/3f/3f/bd3f3fb8e39e53102527d98cadd010a3.jpg" alt="Merida">
+                  </div>
+                
+                  <div class="item">
+                    <img src="https://i.pinimg.com/originals/9c/eb/cc/9cebcc7ebe99a875c5ecd5a4563bad7a.jpg" alt="Vanllope">
+                  </div>
+                  <div class="item">
+                    <img src="https://i.pinimg.com/originals/ba/1c/22/ba1c2269dad7ea068e11872cc41329c9.jpg" alt="Ariel">
+                  </div>
+                  <div class="item">
+                    <img src="https://66.media.tumblr.com/00b267d45f38ad00b25d812066cef937/50f3969f71fb4a50-27/s1280x1920/407c512fd982ef3cc2358f04aa85c45cb75f5092.gif" alt="Auroara">
+                  </div>
+                  <div class="item">
+                    <img src="https://pbs.twimg.com/profile_images/1015608362262810624/rsqrvkA3.jpg" alt="Barbie">
+                  </div>
+                </div>
+            
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                  <span class="glyphicon glyphicon-chevron-left"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                  <span class="glyphicon glyphicon-chevron-right"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <br><br><br>
+            <iframe width="1519" height="854" src="https://www.youtube.com/embed/_BcYBFC6zfY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br><br>
+            <iframe width="1519" height="854" src="https://www.youtube.com/embed/P6ygmWuGnBQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <br><br><br>
+            <div id="myModal" class="modal fade" >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <h4>The Nutcracker and the four realms</h4>
+                    <img src="https://i.ytimg.com/vi/lYqPAl5AZOE/movieposter.jpg">
+                    <h4>The Nutcracker and the Four Realms is a 2018 American fantasy adventure film directed by Lasse Hallström and Joe Johnston based on a screenplay by Ashleigh Powell. It is a retelling of E. T. A. ... The film stars Keira Knightley, Mackenzie Foy, Jayden Fowora-Knight, Eugenio Derbez, Matthew Macfadyen, Richard E.</h4>
+                  </div>
+                  <div class="modal-body">
+                    
+                 </div>
+                </div>
+               </div>
+            </div>
+            <div id="myModal2" class="modal fade" >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <h4>Brave</h4>
+                    <img src="https://www.reellifewithjane.com/wp-content/uploads/2012/06/brave-vertical-banner-250.jpg">
+                    <h4>Set in the Scottish Highlands, the film tells the story of Princess Merida of DunBroch who defies an age-old custom, causing chaos in the kingdom by expressing the desire not to be betrothed. ... Brave is Pixar's first film with a female protagonist.</h4>
+                  </div>
+                  <div class="modal-body">
+                    
+                 </div>
+                </div>
+               </div>
+            </div>
+            <div id="myModal3" class="modal fade" >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <h4>Wreck it ralph breaks the internet</h4>
+                    <img src="https://observer.case.edu/wp-content/uploads/2018/11/Petti_WreckitReleasePoster_WreckitRalph-720x900.jpg">
+                    <h4>Ralph Breaks the Internet is a 2018 American computer-animated comedy film produced by Walt Disney Animation Studios and distributed by Walt Disney Studios Motion Pictures. The 57th animated film produced by the studio, it is the sequel to the 2012 film Wreck-It Ralph.</h4>
+                  </div>
+                  <div class="modal-body">
+                    
+                 </div>
+                </div>
+               </div>
+            </div>
+            <div id="myModal4" class="modal fade" >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <h4>The Little Mermaid</h4>
+                    <img src="https://www.collegefashion.net/wp-content/uploads/2019/01/the-little-mermaid-377x600.jpg">
+                    <h4>The film tells the story of a mermaid princess named Ariel, who dreams of becoming human and falls in love with a human prince named Eric, which leads her to make a magic deal with the sea witch, Ursula, to become human and be with him.</h4>
+                  </div>
+                  <div class="modal-body">
+                    
+                 </div>
+                </div>
+               </div>
+            </div>
+            <div id="myModal5" class="modal fade" >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <h4>Sleeping Beauty</h4>
+                    <img src="https://images.moviesanywhere.com/d32aca4f5b4ff1aefd7bab7e2601b763/90eb354a-0e46-45fe-9824-0b3af63072ac.jpg">
+                    <h4>"Sleeping Beauty" (French: La Belle au bois dormant), or "Little Briar Rose" (German: Dornröschen), also titled in English as "The Sleeping Beauty in the Woods", is a classic fairy tale about a princess who is cursed to sleep for a hundred years by an evil fairy, to be awakened by a handsome prince at the end of them.</h4>
+                  </div>
+                  <div class="modal-body">
+                    
+                 </div>
+                </div>
+               </div>
+            </div>
+            <div id="myModal6" class="modal fade" >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <h4>Frozen2</h4>
+                    <img src="https://images-na.ssl-images-amazon.com/images/I/91MpJvDr1WL.jpg">
+                    <h4>Set three years after the events of the first film, the story follows Elsa, Anna, Kristoff, Olaf, and Sven, who embark on a journey beyond their kingdom of Arendelle in order to discover the origin of Elsa's magical powers and save their kingdom after a mysterious voice calls out to Elsa.</h4>
+                  </div>
+                  <div class="modal-body">
+                    
+                 </div>
+                </div>
+               </div>
+            </div>
+            <div id="myModal7" class="modal fade" >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <h4>Barbie Princess Charm School</h4>
+                    <img src="https://upload.wikimedia.org/wikipedia/en/c/c0/Barbie_Princess_Charm_School.jpg">
+                    <h4>Barbie: Princess Charm School is the 20th Barbie movie. It was released on August, 28 2011 in the UK and on September 13, 2011 in the US. The film follows the plot of Blair Willows, a poor girl living in the kingdom of Gardania, who wins an annual lottery to attend a school for princesses: Princess Charm School.</h4>
+                  </div>
+                  <div class="modal-body">
+                    
+                 </div>
+                </div>
+               </div>
+            </div>
+            <div id="myModal8" class="modal fade" >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <h4>Cinderella</h4>
+                    <img src="https://cloud.vistaapps.elcapitantheatre.com/CDN/media/entity/get/FilmPosterGraphic/h-HO00000122">
+                    <h4>Characteristics. Cinderella is a young woman with medium-length strawberry-blonde hair, blue eyes, and fair complexion. After her father dies, she is forced into servitude in her own home and is tormented by her evil stepmother, Lady Tremaine, and two stepsisters, Anastasia and Drizella.</h4>
+                  </div>
+                  <div class="modal-body">
+                    
+                 </div>
+                </div>
+               </div>
+            </div>
+            <div id="myModal9" class="modal fade" >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <h4>Snow White</h4>
+                    <img src="https://i.pinimg.com/originals/b5/46/7f/b5467f2221d78d204b5a44c8d57d516f.jpg">
+                    <h4>Snow White is innocent, kind, gentle, sweet, and cheerful. Her generous, trusting and helpful nature can cause her trouble, as other people might take advantage of it, such as her vain and evil stepmother.</h4>
+                  </div>
+                  <div class="modal-body">
+                    
+                 </div>
+                </div>
+               </div>
+            </div>
+            <div id="myModal10" class="modal fade" >
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button class="close" data-dismiss="modal">&times;</button>
+                    <h4>Moana</h4>
+                    <img src="http://usmfreepress.org/wp-content/uploads/2018/02/Screen-Shot-2019-03-22-at-12.20.53-PM.png">
+                    <h4>Personality. Moana, as Gramma Tala describes, "stands out from the crowd". She is sea-loving, headstrong, strong-willed, practically fearless, and physically capable. Though she has moments of self-doubt, she has great pride in who she is, and is generally too stubborn to back away from new challenges.</h4>
+                  </div>
+                  <div class="modal-body">
+                    
+                 </div>
+                </div>
+               </div>
+            </div>
+          </center>
+        <script src="main.js"></script>
+    </body>
+</html>

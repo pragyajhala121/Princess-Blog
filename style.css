@@ -1,0 +1,13 @@
+body{
+    background-size: cover;
+}
+
+img{
+    cursor: pointer;
+    height: 400px;
+    width: 300px;
+}
+#myModal,#myModal2,#myModal3,#myModal4,#myModal5,#myModal6,#myModal7,#myModal8,#myModal9,#myModal10{
+    background: url("https://www.gannett-cdn.com/presto/2020/03/19/USAT/fb1f3ba4-c628-4004-a013-7574327bc792-XXX_IMG_RALPH_PRINCESS_SELFI_1_1_QCNDPPC6.JPG?width=2560");
+    background-size: cover;
+}
